@@ -1,0 +1,186 @@
+{
+	"data": {
+		"en": {
+			"about": {
+				"title": "About Me",
+				"body": "I am a disciplined, organized, and efficient person in my work. I have patience and a willingness to learn new tools. I enjoy intellectual challenges that test my problem-solving abilities. Above all, I consider myself a self-taught student."
+			},
+			"education": {
+				"title": "Education",
+				"body": [
+					{
+						"institution": "Ubits - Nexa",
+						"degree": "Discover the Cloud AWS",
+						"startDate": "2023/jul",
+						"endDate": ""
+					},
+					{
+						"institution": "University of Helsinki",
+						"degree": "Fullstack Open",
+
+						"startDate": "2023/jun",
+						"endDate": ""
+					},
+					{
+						"institution": "Codo a Codo",
+						"degree": "Fullstack Python Developer",
+						"startDate": "2023/feb",
+						"endDate": "2023/jul"
+					},
+					{
+						"institution": "Argentina Programa 4.0",
+						"degree": "JavaScript Frontend Developer Junior",
+						"startDate": "2023/feb",
+						"endDate": "In progress"
+					},
+					{
+						"institution": "EDteam",
+						"degree": "UI Design",
+						"startDate": "2023/jan",
+						"endDate": ""
+					},
+					{
+						"institution": "EDteam",
+						"degree": "Frontend Development with React",
+						"startDate": "2023/jan"
+					},
+					{
+						"institution": "EDteam",
+						"degree": "Frontend Development with JavaScript",
+						"startDate": "2023/dec"
+					},
+					{
+						"institution": "Egg Education",
+						"degree": "Programming From Zero",
+						"startDate": "2023/sep",
+						"endDate": "2023/nov"
+					}
+				]
+			},
+			"skills": {
+				"title": "Skills",
+				"body": [
+					"HTML",
+					"CSS",
+					"JavaScript",
+					"React",
+					"Typescript",
+					"Next.js",
+					"Git",
+					"Sass",
+					"Tailwind CSS",
+					"Bootstrap",
+					"Material UI",
+					"Node.js",
+					"Express.js",
+					"Firebase",
+					"MongoDB",
+					"MySQL",
+					"Jest",
+					"Chai",
+					"Mocha",
+					"Cypress",
+					"Npm",
+					"Yarn",
+					"Formik",
+					"Postman",
+					"Insomnia",
+					"Trello",
+					"Slack",
+					"Scrum"
+				]
+			}
+		},
+		"es": {
+			"about": {
+				"title": "Sobre mi",
+				"body": "Soy una persona disciplinada, organizada y eficiente en mi trabajo. Tengo paciencia y disposición para aprender nuevas herramientas. Disfruto de desafíos intelectuales que ponen a prueba mis habilidades para resolver problemas. Por encima de todo, me considero un estudiante autodidacta."
+			},
+			"education": {
+				"title": "Educación",
+				"body": [
+					{
+						"institution": "Ubits - Nexa",
+						"degree": "Descubre la nube AWS",
+						"startDate": "2023/jul",
+						"endDate": ""
+					},
+					{
+						"institution": "University of Helsinki",
+						"degree": "Fullstack Open",
+
+						"startDate": "2023/jun",
+						"endDate": ""
+					},
+					{
+						"institution": "Codo a Codo",
+						"degree": "Fullstack Python Developer",
+						"startDate": "2023/feb",
+						"endDate": "2023/jul"
+					},
+					{
+						"institution": "Argentina Programa 4.0",
+						"degree": "JavaScript Frontend Developer Junior",
+						"startDate": "2023/feb",
+						"endDate": "En curso"
+					},
+					{
+						"institution": "EDteam",
+						"degree": "UI Design",
+						"startDate": "2023/ene",
+						"endDate": ""
+					},
+					{
+						"institution": "EDteam",
+						"degree": "Frontend Development with React",
+						"startDate": "2023/ene"
+					},
+					{
+						"institution": "EDteam",
+						"degree": "Frontend Development with JavaScript",
+						"startDate": "2023/dic"
+					},
+					{
+						"institution": "Egg Education",
+						"degree": "Programación Desde Cero",
+						"startDate": "2023/sep",
+						"endDate": "2023/nov"
+					}
+				]
+			},
+			"skills": {
+				"title": "Skills",
+				"body": [
+					"HTML",
+					"CSS",
+					"JavaScript",
+					"React",
+					"Typescript",
+					"Next.js",
+					"Git",
+					"Sass",
+					"Tailwind CSS",
+					"Bootstrap",
+					"Material UI",
+					"Node.js",
+					"Express.js",
+					"Firebase",
+					"MongoDB",
+					"MySQL",
+					"Jest",
+					"Chai",
+					"Mocha",
+					"Cypress",
+					"Npm",
+					"Yarn",
+					"Formik",
+					"Postman",
+					"Insomnia",
+					"Trello",
+					"Slack",
+					"Scrum"
+				]
+			}
+		}
+	}
+}

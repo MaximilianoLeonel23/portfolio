@@ -1,11 +1,10 @@
 'use client';
-import { ClockIcon } from '@/assets/icons/arrowIcons';
-import { useTheme } from 'next-themes';
+import { useLanguageStore } from '@/store/useLanguageStore';
 import React, { useEffect, useState } from 'react';
 
 const ClockCard = () => {
-	const { theme } = useTheme();
 	const [time, setTime] = useState(new Date());
+	const { language } = useLanguageStore();
 
 	useEffect(() => {
 		const intervalId = setInterval(() => {
@@ -17,16 +16,15 @@ const ClockCard = () => {
 		};
 	}, []);
 
-	const hours = time.getHours();
-	const minutes = time.getMinutes();
-	const options = {
+	const hours = time.getHours().toString().padStart(2, '0');
+	const minutes = time.getMinutes().toString().padStart(2, '0');
+	const options: Intl.DateTimeFormatOptions = {
 		weekday: 'long',
 		day: 'numeric',
 		month: 'long',
 		year: 'numeric',
 	};
-
-	const formattedDate = time.toLocaleDateString(undefined, options);
+	const formattedDate = time.toLocaleDateString(language === 'en' ? 'en-US' : 'es-ES', options);
 
 	return (
 		<article className='relative aspect-square flex items-center justify-center p-4 rounded-2xl bg-primary-blue'>
@@ -36,9 +34,6 @@ const ClockCard = () => {
 					{formattedDate.charAt(0).toUpperCase() + formattedDate.slice(1)}
 				</p>
 			</div>
-			{/* <div className='absolute bottom-0 left-0 p-4'>
-				<ClockIcon mode={theme === 'dark' ? 'dark' : 'light'} />
-			</div> */}
 		</article>
 	);
 };

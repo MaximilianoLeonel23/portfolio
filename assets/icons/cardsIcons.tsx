@@ -108,3 +108,32 @@ export const LinkedinIcon: React.FC<LinkedinIconProps> = ({ mode }) => {
 		</svg>
 	);
 };
+
+export const CountryIcon = () => {
+	return (
+		<svg width='90' height='90' viewBox='0 0 90 90' fill='none' xmlns='http://www.w3.org/2000/svg'>
+			<g clip-path='url(#clip0_121_23)'>
+				<rect width='90' height='90' fill='#7895CB' />
+				<mask id='mask0_121_23' maskUnits='userSpaceOnUse' x='-4' y='-4' width='98' height='98'>
+					<path
+						d='M45 94C72.062 94 94 72.062 94 45C94 17.938 72.062 -4 45 -4C17.938 -4 -4 17.938 -4 45C-4 72.062 17.938 94 45 94Z'
+						fill='#D9D9D9'
+					/>
+				</mask>
+				<g mask='url(#mask0_121_23)'>
+					<path d='M-3.64966 -4L-3.64966 94H94.3503V-4H-3.64966Z' fill='#7895CB' />
+					<path d='M-4.00007 25.9444L-4.00007 64.0556H93.9999V25.9444L-4.00007 25.9444Z' fill='white' />
+					<path
+						d='M59.9722 44.9999L53.8543 48.0252L57.112 54.2535L50.4689 52.9176L49.6271 59.9722L44.9999 54.7837L40.3728 59.9722L39.5309 52.9176L32.8876 54.2532L36.1456 48.0249L30.0278 44.9999L36.1457 41.9748L32.8876 35.7468L39.5308 37.0825L40.3729 30.0278L44.9999 35.2163L49.6274 30.0278L50.4689 37.0825L57.1122 35.7468L53.8546 41.9751L59.9722 44.9999Z'
+						fill='#F1B434'
+					/>
+				</g>
+			</g>
+			<defs>
+				<clipPath id='clip0_121_23'>
+					<rect width='90' height='90' fill='white' />
+				</clipPath>
+			</defs>
+		</svg>
+	);
+};

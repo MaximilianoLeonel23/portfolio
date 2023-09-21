@@ -22,7 +22,7 @@ const config: Config = {
 				padding: {
 					DEFAULT: '1rem',
 					sm: '1rem',
-					lg: '3rem',
+					lg: '10rem',
 				},
 				center: true,
 			},

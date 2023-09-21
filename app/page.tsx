@@ -1,3 +1,4 @@
+import AboutPage from '@/components/sections/AboutPage';
 import ProjectsPage from '@/components/sections/ProjectsPage';
 import SkillsPage from '@/components/sections/SkillsPage';
 import WelcomePage from '@/components/sections/WelcomePage';
@@ -8,6 +9,7 @@ export default function MainPage() {
 			<WelcomePage />
 			<SkillsPage />
 			<ProjectsPage />
+			<AboutPage />
 		</main>
 	);
 }

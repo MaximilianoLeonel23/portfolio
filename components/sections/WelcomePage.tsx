@@ -7,6 +7,8 @@ import ProjectsCard from '@/components/cards/ProjectsCard';
 import SkillsCard from '@/components/cards/SkillsCard';
 import TitleCard from '@/components/cards/TitleCard';
 import ClockCard from '../cards/ClockCard';
+import LanguageCard from '../cards/LanguageCard';
+import CountryCard from '../cards/CountryCard';
 const WelcomePage = () => {
 	return (
 		<>
@@ -19,6 +21,8 @@ const WelcomePage = () => {
 				<TitleCard />
 				<ClockCard />
 				<SkillsCard />
+				<LanguageCard />
+				<CountryCard />
 			</section>
 		</>
 	);

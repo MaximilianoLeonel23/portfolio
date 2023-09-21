@@ -29,15 +29,19 @@ import {
 	VercelIcon,
 	YarnIcon,
 } from '@/assets/icons/techIcons';
+import { useLanguageStore } from '@/store/useLanguageStore';
 import { useTheme } from 'next-themes';
 import React from 'react';
 
 const SkillsPage = () => {
 	const { theme } = useTheme();
+	const { language } = useLanguageStore();
 	return (
-		<section className='flex flex-col gap-2 py-16'>
+		<section id='skills' className='flex flex-col gap-2 py-16'>
 			<SkillsIcon mode={theme === 'dark' ? 'dark' : 'light'} />
-			<h2 className='font-semibold text-gray-700 dark:text-gray-100 text-2xl'>My skills</h2>
+			<h2 className='font-semibold text-gray-700 dark:text-gray-400 text-2xl'>
+				{language === 'en' ? 'My skills' : 'Mis skills'}
+			</h2>
 			<div className='grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-8 gap-8 py-16 items-center icon-fullwidth'>
 				<HTMLIcon mode={theme === 'dark' ? 'dark' : 'light'} />
 				<CSSIcon mode={theme === 'dark' ? 'dark' : 'light'} />
