@@ -13,7 +13,7 @@ const TitleCard = () => {
 						{language === 'en' ? "Hi, I'm Maximiliano" : 'Hola, soy Maximiliano'}
 					</h4>
 					<span className='font-normal text-gray-100 dark:text-gray-800 text-sm sm:text-lg lg:text-xl'>
-						Fullstack Developer
+						Frontend Developer
 					</span>
 				</div>
 				<p className='font-medium text-gray-100 dark:text-gray-800 text-xs sm:text-base'>
