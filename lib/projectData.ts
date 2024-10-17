@@ -23,13 +23,6 @@ export const projectData = [
 		github: 'https://github.com/MaximilianoLeonel23/pokemon-app',
 	},
 	{
-		id: '2',
-		title: 'forAllmart',
-		link: 'https://forallmart.vercel.app/',
-		image: forallmart,
-		github: 'https://github.com/MaximilianoLeonel23/forallmart-ecommerce',
-	},
-	{
 		id: '3',
 		title: 'Hangman Game',
 		link: 'https://hangman-three-dusky.vercel.app/',

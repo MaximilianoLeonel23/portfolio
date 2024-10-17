@@ -3,57 +3,22 @@
 		"en": {
 			"about": {
 				"title": "About Me",
-				"body": "I am a disciplined, organized, and efficient person in my work. I have patience and a willingness to learn new tools. I enjoy intellectual challenges that test my problem-solving abilities. Above all, I consider myself a self-taught student."
+				"body": "Associate degree student in Computer Programming (NTU) and software developer with +2 years of experience in web development, specialized in technologies such as HTML/CSS, JavaScript, React, Java, and Spring. I have experience with databases (MySQL, PostgreSQL), object-oriented programming (OOP), version control (GIT), and agile methodologies. I am organized, responsible, passionate about intellectual challenges, and committed to continuous learning and best practices."
 			},
 			"education": {
 				"title": "Education",
 				"body": [
 					{
-						"institution": "Ubits - Nexa",
-						"degree": "Discover the Cloud AWS",
-						"startDate": "2023/jul",
-						"endDate": ""
+						"institution": "National Technological University",
+						"degree": "Associate Degree in Computer Programming",
+						"startDate": "2024/feb",
+						"endDate": "2025/dec"
 					},
 					{
-						"institution": "University of Helsinki",
-						"degree": "Fullstack Open",
-
-						"startDate": "2023/jun",
-						"endDate": ""
-					},
-					{
-						"institution": "Codo a Codo",
-						"degree": "Fullstack Python Developer",
-						"startDate": "2023/feb",
-						"endDate": "2023/jul"
-					},
-					{
-						"institution": "Argentina Programa 4.0",
-						"degree": "JavaScript Frontend Developer Junior",
-						"startDate": "2023/feb",
-						"endDate": "In progress"
-					},
-					{
-						"institution": "EDteam",
-						"degree": "UI Design",
-						"startDate": "2023/jan",
-						"endDate": ""
-					},
-					{
-						"institution": "EDteam",
-						"degree": "Frontend Development with React",
-						"startDate": "2023/jan"
-					},
-					{
-						"institution": "EDteam",
-						"degree": "Frontend Development with JavaScript",
-						"startDate": "2023/dec"
-					},
-					{
-						"institution": "Egg Education",
-						"degree": "Programming From Zero",
-						"startDate": "2023/sep",
-						"endDate": "2023/nov"
+						"institution": "National University of Rosario",
+						"degree": "Psychology (paused)",
+						"startDate": "2018/feb",
+						"endDate": "2023/feb"
 					}
 				]
 			},
@@ -62,125 +27,276 @@
 				"body": [
 					"HTML",
 					"CSS",
-					"JavaScript",
-					"React",
-					"Typescript",
-					"Next.js",
-					"Git",
 					"Sass",
 					"Tailwind CSS",
 					"Bootstrap",
-					"Material UI",
-					"Node.js",
-					"Express.js",
-					"Firebase",
-					"MongoDB",
+					"JavaScript",
+					"POO",
+					"TypeScript",
+					"React",
+					"React Native",
+					"Redux",
+					"Java",
+					"Spring",
 					"MySQL",
-					"Jest",
-					"Chai",
-					"Mocha",
-					"Cypress",
-					"Npm",
-					"Yarn",
-					"Formik",
-					"Postman",
-					"Insomnia",
-					"Trello",
-					"Slack",
+					"PostgreSQL",
+					"Git",
 					"Scrum",
-					"Figma"
+					"AWS"
+				]
+			},
+			"languages": {
+				"title": "Languages",
+				"body": [
+					{
+						"language": "Spanish",
+						"proficiency": "Native"
+					},
+					{
+						"language": "English",
+						"proficiency": "B2 (EF SET C2)"
+					}
+				]
+			},
+			"experience": {
+				"title": "Professional Experience",
+				"body": [
+					{
+						"position": "Freelance Frontend Developer",
+						"company": "Fiverr",
+						"startDate": "2023/mar",
+						"endDate": "2024/jul",
+						"responsibilities": [
+							"Built responsive user interfaces.",
+							"Developed and implemented components for Low Code applications using JavaScript, HTML, and CSS."
+						]
+					},
+					{
+						"position": "Frontend Developer",
+						"company": "NoCountry",
+						"startDate": "2023/aug",
+						"endDate": "2023/sep",
+						"responsibilities": [
+							"Collaborated with an 8-member international team using agile methodologies to develop a telemedicine application.",
+							"Developed user interfaces with JavaScript, React, and Material UI."
+						]
+					},
+					{
+						"position": "Teaching Assistant",
+						"company": "National University of Rosario",
+						"startDate": "2020/feb",
+						"endDate": "2022/mar",
+						"responsibilities": [
+							"Supervised groups alongside professors.",
+							"Prepared reports and corrected practical assignments.",
+							"Managed virtual platforms like UNR Communities and Excel spreadsheets to track assignment submissions and student attendance."
+						]
+					}
+				]
+			},
+			"certificates": {
+				"title": "Certificates",
+				"body": [
+					{
+						"certificate": "Oracle Next Education (ONE) - Java / Spring Development",
+						"institution": "Alura Latam - Oracle",
+						"date": "2024"
+					},
+					{
+						"certificate": "Specialization in React",
+						"institution": "RollingCode School",
+						"date": "2024"
+					},
+					{
+						"certificate": "Discover the Cloud AWS",
+						"institution": "Ubits - Nexa",
+						"date": "2023"
+					},
+					{
+						"certificate": "Fullstack Open",
+						"institution": "Helsinki University",
+						"date": "2023"
+					},
+					{
+						"certificate": "Full Stack Python Developer",
+						"institution": "Codo a Codo 4.0",
+						"date": "2023"
+					},
+					{
+						"certificate": "JavaScript Frontend Developer Junior",
+						"institution": "Argentina Programa",
+						"date": "2023"
+					},
+					{
+						"certificate": "UI Design",
+						"institution": "EDteam",
+						"date": "2023"
+					},
+					{
+						"certificate": "Front End Development with React",
+						"institution": "EDteam",
+						"date": "2023"
+					},
+					{
+						"certificate": "Front End Development with JavaScript",
+						"institution": "EDteam",
+						"date": "2022"
+					},
+					{
+						"certificate": "Programming From Scratch",
+						"institution": "EggEducation",
+						"date": "2022"
+					}
 				]
 			}
 		},
 		"es": {
 			"about": {
-				"title": "Sobre mi",
-				"body": "Soy una persona disciplinada, organizada y eficiente en mi trabajo. Tengo paciencia y disposición para aprender nuevas herramientas. Disfruto de desafíos intelectuales que ponen a prueba mis habilidades para resolver problemas. Por encima de todo, me considero un estudiante autodidacta."
+				"title": "Sobre Mí",
+				"body": "Estudiante de Tecnicatura Universitaria en Programación (UTN) y desarrollador de software con más de 2 años de experiencia en desarrollo web, especializado en tecnologías como HTML/CSS, JavaScript, React, Java y Spring. Tengo experiencia con bases de datos (MySQL, PostgreSQL), programación orientada a objetos (POO), control de versiones (GIT) y metodologías ágiles. Soy organizado, responsable, apasionado por los desafíos intelectuales y comprometido con el aprendizaje continuo y las mejores prácticas."
 			},
 			"education": {
 				"title": "Educación",
 				"body": [
 					{
-						"institution": "Ubits - Nexa",
-						"degree": "Descubre la nube AWS",
-						"startDate": "2023/jul",
-						"endDate": ""
+						"institution": "Universidad Tecnológica Nacional",
+						"degree": "Tecnicatura Universitaria en Programación",
+						"startDate": "2024/feb",
+						"endDate": "2025/dic"
 					},
 					{
-						"institution": "University of Helsinki",
-						"degree": "Fullstack Open",
-
-						"startDate": "2023/jun",
-						"endDate": ""
-					},
-					{
-						"institution": "Codo a Codo",
-						"degree": "Fullstack Python Developer",
-						"startDate": "2023/feb",
-						"endDate": "2023/jul"
-					},
-					{
-						"institution": "Argentina Programa 4.0",
-						"degree": "JavaScript Frontend Developer Junior",
-						"startDate": "2023/feb",
-						"endDate": "En curso"
-					},
-					{
-						"institution": "EDteam",
-						"degree": "UI Design",
-						"startDate": "2023/ene",
-						"endDate": ""
-					},
-					{
-						"institution": "EDteam",
-						"degree": "Frontend Development with React",
-						"startDate": "2023/ene"
-					},
-					{
-						"institution": "EDteam",
-						"degree": "Frontend Development with JavaScript",
-						"startDate": "2023/dic"
-					},
-					{
-						"institution": "Egg Education",
-						"degree": "Programación Desde Cero",
-						"startDate": "2023/sep",
-						"endDate": "2023/nov"
+						"institution": "Universidad Nacional de Rosario",
+						"degree": "Psicología (en pausa)",
+						"startDate": "2018/feb",
+						"endDate": "2023/feb"
 					}
 				]
 			},
 			"skills": {
-				"title": "Skills",
+				"title": "Habilidades",
 				"body": [
 					"HTML",
 					"CSS",
-					"JavaScript",
-					"React",
-					"Typescript",
-					"Next.js",
-					"Git",
 					"Sass",
 					"Tailwind CSS",
 					"Bootstrap",
-					"Material UI",
-					"Node.js",
-					"Express.js",
-					"Firebase",
-					"MongoDB",
+					"JavaScript",
+					"POO",
+					"TypeScript",
+					"React",
+					"React Native",
+					"Redux",
+					"Java",
+					"Spring",
 					"MySQL",
-					"Jest",
-					"Chai",
-					"Mocha",
-					"Cypress",
-					"Npm",
-					"Yarn",
-					"Formik",
-					"Postman",
-					"Insomnia",
-					"Trello",
-					"Slack",
+					"PostgreSQL",
+					"Git",
 					"Scrum",
-					"Figma"
+					"AWS"
+				]
+			},
+			"languages": {
+				"title": "Idiomas",
+				"body": [
+					{
+						"language": "Español",
+						"proficiency": "Nativo"
+					},
+					{
+						"language": "Inglés",
+						"proficiency": "B2 (EF SET C2)"
+					}
+				]
+			},
+			"experience": {
+				"title": "Experiencia Profesional",
+				"body": [
+					{
+						"position": "Desarrollador Frontend Freelance",
+						"company": "Fiverr",
+						"startDate": "2023/mar",
+						"endDate": "2024/jul",
+						"responsibilities": [
+							"Construcción de interfaces de usuario responsivas.",
+							"Desarrollo e implementación de componentes para aplicaciones de bajo código utilizando JavaScript, HTML y CSS."
+						]
+					},
+					{
+						"position": "Desarrollador Frontend",
+						"company": "NoCountry",
+						"startDate": "2023/ago",
+						"endDate": "2023/sep",
+						"responsibilities": [
+							"Colaboración con un equipo internacional de 8 miembros utilizando metodologías ágiles para desarrollar una aplicación de telemedicina.",
+							"Desarrollo de interfaces de usuario con JavaScript, React y Material UI."
+						]
+					},
+					{
+						"position": "Ayudante de Cátedra",
+						"company": "Universidad Nacional de Rosario",
+						"startDate": "2020/feb",
+						"endDate": "2022/mar",
+						"responsibilities": [
+							"Supervisión de grupos junto con los docentes.",
+							"Preparación de informes y corrección de trabajos prácticos.",
+							"Gestión de plataformas virtuales como Comunidades UNR y planillas de Excel para el seguimiento de entrega de trabajos y asistencia de estudiantes."
+						]
+					}
+				]
+			},
+			"certificates": {
+				"title": "Certificados",
+				"body": [
+					{
+						"certificate": "Oracle Next Education (ONE) - Desarrollo Java / Spring",
+						"institution": "Alura Latam - Oracle",
+						"date": "2024"
+					},
+					{
+						"certificate": "Especialización en React",
+						"institution": "RollingCode School",
+						"date": "2024"
+					},
+					{
+						"certificate": "Descubre la Nube AWS",
+						"institution": "Ubits - Nexa",
+						"date": "2023"
+					},
+					{
+						"certificate": "Fullstack Open",
+						"institution": "Universidad de Helsinki",
+						"date": "2023"
+					},
+					{
+						"certificate": "Desarrollador Full Stack Python",
+						"institution": "Codo a Codo 4.0",
+						"date": "2023"
+					},
+					{
+						"certificate": "Desarrollador Frontend JavaScript Junior",
+						"institution": "Argentina Programa",
+						"date": "2023"
+					},
+					{
+						"certificate": "Diseño UI",
+						"institution": "EDteam",
+						"date": "2023"
+					},
+					{
+						"certificate": "Desarrollo Frontend con React",
+						"institution": "EDteam",
+						"date": "2023"
+					},
+					{
+						"certificate": "Desarrollo Frontend con JavaScript",
+						"institution": "EDteam",
+						"date": "2022"
+					},
+					{
+						"certificate": "Programación Desde Cero",
+						"institution": "Egg Education",
+						"date": "2022"
+					}
 				]
 			}
 		}
